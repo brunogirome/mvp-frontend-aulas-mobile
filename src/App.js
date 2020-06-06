@@ -1,14 +1,9 @@
 import React from 'react';
-import { View } from 'react-native';
 
-import Button from './components/Button';
+import Register from './Pages/Register';
 
 const App = () => {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Button>Entrar</Button>
-    </View>
-  );
+  return <Register />;
 };
 
 export default App;
