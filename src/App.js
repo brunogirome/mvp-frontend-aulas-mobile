@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Login from './Pages/Login';
+import Home from './Pages/Home';
 
 const App = () => {
-  return <Login />;
+  return <Home />;
 };
 
 export default App;
