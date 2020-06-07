@@ -1,9 +1,16 @@
+/* eslint-disable react/destructuring-assignment */
 import React from 'react';
 
 import { Container } from './styles';
 
-const Title = ({ children, fontSize = '24px' }) => {
-  return <Container fontSize={fontSize}>{children}</Container>;
+const Title = (props) => {
+  const { children, fontSize = '24px' } = props;
+
+  return (
+    <Container fontSize={fontSize} {...props}>
+      {children}
+    </Container>
+  );
 };
 
 export default Title;
