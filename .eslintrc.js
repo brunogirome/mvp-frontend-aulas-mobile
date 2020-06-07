@@ -1,4 +1,3 @@
-
 module.exports = {
   env: {
     es6: true,
@@ -32,5 +31,6 @@ module.exports = {
     'no-console': ['error', { allow: ['tron'] }],
     'no-param-reassign': 'off',
     'react/prop-types': 'off',
+    'react/jsx-props-no-spreading': 'off',
   },
 };
