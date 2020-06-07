@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Home from './Pages/Home';
+import Dish from './Pages/Dish';
 
 const App = () => {
-  return <Home />;
+  return <Dish />;
 };
 
 export default App;

@@ -2,9 +2,11 @@ import React from 'react';
 
 import { Container, TextButton } from './styles';
 
-const SecondaryButton = ({ children }) => {
+const SecondaryButton = (props) => {
+  const { children } = props;
+
   return (
-    <Container>
+    <Container {...props}>
       <TextButton>{children}</TextButton>
     </Container>
   );
